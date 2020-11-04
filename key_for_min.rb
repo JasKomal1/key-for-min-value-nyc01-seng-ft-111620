@@ -10,8 +10,10 @@ def key_for_min_value(name_hash)
      if key[1] < val 
          val = key[1]
          keys = key[0]
-       end
+      else 
+        nil 
+      end
   end
-  return keys
-  nil 
+    keys
+  
 end
